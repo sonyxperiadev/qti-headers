@@ -32,4 +32,5 @@ cc_library_headers {
     name: "qti_kernel_headers",
     defaults: ["qti_kernel_headers_defaults"],
     vendor_available: true,
+    recovery_available: true,
 }

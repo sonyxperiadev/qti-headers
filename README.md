@@ -9,6 +9,8 @@ Needs following changes:
 SOONG_CONFIG_NAMESPACES += qti_kernel_headers
 SOONG_CONFIG_qti_kernel_headers := version
 SOONG_CONFIG_qti_kernel_headers_version := 4.14
+# or
+$(call soong_config_set,qti_kernel_headers,version,4.14)
 ```
 
 `common-headers` needs to rename the module name from `qti_kernel_headers` to

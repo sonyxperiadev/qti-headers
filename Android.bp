@@ -7,6 +7,8 @@
 // SOONG_CONFIG_NAMESPACES += qti_kernel_headers
 // SOONG_CONFIG_qti_kernel_headers := version
 // SOONG_CONFIG_qti_kernel_headers_version := 4.14
+// or
+// $(call soong_config_set,qti_kernel_headers,version,4.14)
 
 bootstrap_go_package {
     name: "soong-qti_kernel_headers_defaults",

@@ -36,3 +36,83 @@ cc_library_headers {
     vendor_available: true,
     recovery_available: true,
 }
+
+// Dummy techpack UAPI header modules to satisfy dependencies
+// All the headers we keep in the main qti_kernel_headers module
+cc_library_headers {
+    name: "qti_audio_kernel_uapi",
+    vendor_available: true,
+    recovery_available: true
+}
+
+cc_library_headers {
+    name: "qti_display_kernel_headers",
+    vendor_available: true,
+    recovery_available: true
+}
+
+cc_library_headers {
+    name: "qti_eva_kernel_headers",
+    vendor_available: true,
+    recovery_available: true
+}
+
+cc_library_headers {
+    name: "qti_gfx_kernel_uapi",
+    vendor_available: true,
+    recovery_available: true
+}
+
+cc_library_headers {
+    name: "qti_ipa_kernel_headers",
+    vendor_available: true,
+    recovery_available: true
+}
+
+cc_library_headers {
+    name: "qti_ipa_test_kernel_headers",
+    vendor_available: true,
+    recovery_available: true
+}
+
+cc_library_headers {
+    name: "qti_mm_drivers_kernel_headers",
+    vendor_available: true,
+    recovery_available: true
+}
+
+cc_library_headers {
+    name: "qti_spu_drivers_kernel_headers",
+    vendor_available: true,
+    recovery_available: true
+}
+
+cc_library_headers {
+    name: "qti_synx_kernel_headers",
+    vendor_available: true,
+    recovery_available: true
+}
+
+cc_library_headers {
+    name: "qseecom_kernel_headers",
+    vendor_available: true,
+    recovery_available: true
+}
+
+cc_library_headers {
+    name: "securemsm_kernel_uapi_headers",
+    vendor_available: true,
+    recovery_available: true
+}
+
+cc_library_headers {
+    name: "smcinvoke_kernel_headers",
+    vendor_available: true,
+    recovery_available: true
+}
+
+cc_library_headers {
+    name: "smmu_proxy_uapi_header",
+    vendor_available: true,
+    recovery_available: true
+}

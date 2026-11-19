@@ -6,12 +6,8 @@ versions can live inside on AOSP tree.
 Needs following changes:
 
 ```make
-SOONG_CONFIG_NAMESPACES += qti_kernel_headers
-SOONG_CONFIG_qti_kernel_headers := version
-SOONG_CONFIG_qti_kernel_headers_version := 4.14
-# or
-$(call soong_config_set,qti_kernel_headers,version,4.14)
+$(call soong_config_set,qti_kernel_headers,version,6.6)
 ```
 
 `common-headers` needs to rename the module name from `qti_kernel_headers` to
-`qti_kernel_headers_4.14` (based on version).
+`qti_kernel_headers_6.6` (based on version).
